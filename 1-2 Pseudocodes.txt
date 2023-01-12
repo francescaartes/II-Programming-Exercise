@@ -1,0 +1,32 @@
+1. Male and Female Percentages
+
+Declare Integer female, male, classTotal
+Declare Real malePercentage, femalePercentage
+
+Display "Enter the number of male registered in your class."
+Input male
+
+Display "Enter the number of female registered in your class."
+Input female
+
+Set classTotal = male + female
+
+Set malePercentage = (male / classTotal) * 100
+Set femalePercentage = (female / classTotal) * 100
+
+Display "There are ", classTotal " students in your class." 
+	malePercentage "% are male and ", femalePercentage "% are female."
+
+2. Ingredient Adjuster (Cookies)
+
+Declare Real sugar, butter, flour, cookies
+
+Display "How many cookies do you want to make?" 
+Input cookies
+
+Set sugar = 1.5 * cookies
+Set butter = 1 * cookies
+Set flour = 2.75 * cookies
+
+Display "You need ", sugar " cups of sugar, ", butter ", cups of butter, and",  
+	flour " cups of flour to make ", cookies " cookie/s."
