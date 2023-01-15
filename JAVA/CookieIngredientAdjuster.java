@@ -22,9 +22,9 @@ public class CookieIngredientAdjuster
             System.out.print("How many cookies do you want to make? ");
                 cookies = in.nextDouble();
             
-            sugar = 1.5 * cookies;
-            butter = 1 * cookies;
-            flour = 2.75 * cookies;
+            sugar = (1.5 * cookies)/48;
+            butter = (1 * cookies)/48;
+            flour = (2.75 * cookies)/48;
 
             System.out.println(name + ", you need the following ingredients to make " + cookies + " cookie/s:");
             System.out.println(sugar + " cups of sugar");

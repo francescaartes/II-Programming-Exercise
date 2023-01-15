@@ -24,9 +24,9 @@ Declare Real sugar, butter, flour, cookies
 Display "How many cookies do you want to make?" 
 Input cookies
 
-Set sugar = 1.5 * cookies
-Set butter = 1 * cookies
-Set flour = 2.75 * cookies
+Set sugar = 1.5 * cookies / 48
+Set butter = 1 * cookies / 48
+Set flour = 2.75 * cookies / 48
 
 Display "You need ", sugar " cups of sugar, ", butter ", cups of butter, and",  
 	flour " cups of flour to make ", cookies " cookie/s."

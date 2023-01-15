@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="chezka"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2023-01-11 09:46:45 pm"/>
+        <attribute name="saved" value="2023-01-15 11:53:16 am"/>
         <attribute name="created" value="Y2hlemthO0NIRVpLQTsyMDIzLTAxLTExOzA5OjM0OjEwIHBtOzI0MDM="/>
-        <attribute name="edited" value="Y2hlemthO0NIRVpLQTsyMDIzLTAxLTExOzA5OjQ2OjQ1IHBtOzE7MjUyMg=="/>
+        <attribute name="edited" value="Y2hlemthO0NIRVpLQTsyMDIzLTAxLTE1OzExOjUzOjE2IGFtOzI7MjUwMQ=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -29,9 +29,9 @@
             <declare name="sugar, butter, flour, cookies" type="Real" array="False" size=""/>
             <output expression="&quot;How many cookies do you want to make?&quot;" newline="True"/>
             <input variable="cookies"/>
-            <assign variable="sugar" expression="1.5 * cookies"/>
-            <assign variable="butter" expression="1 * cookies"/>
-            <assign variable="flour" expression="2.75 * cookies"/>
+            <assign variable="sugar" expression="(1.5 * cookies)/48"/>
+            <assign variable="butter" expression="(1 * cookies)/48"/>
+            <assign variable="flour" expression="(2.75 * cookies)/48"/>
             <output expression="&quot;You need &quot; &amp; sugar" newline="False"/>
             <output expression="&quot; cups of sugar, &quot; &amp; butter" newline="False"/>
             <output expression="&quot; cups of butter, and &quot; &amp; flour" newline="False"/>

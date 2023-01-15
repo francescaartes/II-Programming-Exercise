@@ -6,9 +6,9 @@
 name = input('What is your name? ')
 cookies = int(input('How many cookies do you want to make? '))
 
-sugar = cookies * 1.5
-butter = cookies * 1.0
-flour = cookies * 2.75
+sugar = round((cookies * 1.5)/48, 2)
+butter = round((cookies * 1.0)/48, 2)
+flour = round((cookies * 2.75)/48, 2)
 
 print(name, ", you need the following ingredients to make ", cookies, " cookie/s:")
 print(sugar, " cups of sugar")
